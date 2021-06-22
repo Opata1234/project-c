@@ -1,4 +1,4 @@
-var maleNames = ["Kwasi", "Kwado", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
+    var maleNames = ["Kwasi", "Kwado", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
 	  
 	var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 	
@@ -13,9 +13,10 @@ var maleNames = ["Kwasi", "Kwado", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
 
     function result(){
         if(male.checked===true){
-            alert('You were born on ' + daysOfWeek[weekday] + 'and your akan name is ' + maleNames[weekday])
+            
+            alert('You were born on ' + daysOfWeek[weekday] + ' and your akan name is ' + maleNames[weekday])
         }
         if(female.checked===true){
-            alert('You were born on ' + daysOfWeek[weekday] + 'and your akan name is ' + femaleNames[weekday])
+            alert('You were born on ' + daysOfWeek[weekday] + ' and your akan name is ' + femaleNames[weekday]);
         }
     }
